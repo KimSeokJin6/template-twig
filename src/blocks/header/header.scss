@@ -132,3 +132,26 @@
 		border-radius: 10px;
 	}
 }
+.header-burger {
+	display: none;
+}
+@media (max-width: 1800px) {
+	.container {
+		width: 375px;
+	}
+	.header-top {
+		display: none;
+	}
+	.header-main {
+		display: none;
+	}
+	.header-bottom {
+		display: none;
+	}
+	.header-burger {
+		display: flex;
+		&__inner {
+			@extend %display;
+		}
+	}
+}
