@@ -150,3 +150,60 @@
   &-right{
     margin-right: 20px
   }}}}}
+.blocks {
+  border-radius: 5px;
+  @extend %display;
+  gap: 30px;
+  &-left {
+    background-color: $statutViolet;
+    position: relative;
+    border-radius: 5px;
+    @extend %display;
+    padding: 20px 25px;
+    gap: 10px;
+    height: 160px;
+    width: 360px;
+    &-text {
+      color: $statutWhite;
+      @extend %Gosha-sans;
+      z-index: 1;
+    }
+    &-img {
+      height: 100px;
+      width: 97px;
+    }
+    &-wave {
+      position: absolute;
+      width: 112px;
+      left: 17px;
+      top: 23px;
+    }
+  }
+  &-right {
+    @extend %display;
+    background-color: $statutLightPink;
+    border-radius: 5px;
+    padding: 20px 25px;
+    gap: 10px;
+    height: 160px;
+    position: relative;
+    width: 360px;
+    &-img {
+      width: 40%;
+      height: 103px;
+    }
+    &-text {
+      @extend %Gosha-sans;
+      z-index: 2;
+      color: rgba(28, 41, 77, 0.8);
+    }
+    &-wave {
+      position: absolute;
+      width: 112px;
+      z-index: 1;
+      height: 40px;
+      bottom: 35px;
+      left: 22px;
+    }
+  }
+}
