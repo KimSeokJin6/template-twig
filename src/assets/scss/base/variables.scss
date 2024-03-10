@@ -1,0 +1,79 @@
+/*  Переменные со шрифтами  */
+$accent-font: 'Inter', sans-serif;
+
+/*  Переменные с гарнитурами шрифтов  */
+$thin:					100;
+$light:					300;
+$regular:				normal;
+$medium:				500;
+$bold:					bold;
+
+/* Настройки оснвоно шрифта */
+$mainFontSize: 			13px;
+$mainLineHeight:		17px;
+$mainFontColor:			#000;
+$mainFontWeight:		$regular;
+
+/* Основные цвета */
+$accent-color:			#f4b600;
+$secondary-color: 		#6a7678;
+$statutWhite: #fff;
+$statutBlack: #000000;
+$statutOrange: #ff7a00;
+$statutRedLink: #ff283d;
+$statutLightGreen: #ccff90;
+$statutViolet: #6d378f;
+$statutLightPink: #ffd8ef;
+$statutLightViolet: #ac8ee3;
+$statutBlue: #0288d1;
+$statutDarkBlueLine: #1c294d26;
+$statutLightGreyLine: #e1e1e1;
+$statutYellow: #fbc02d;
+$statutTomato: #ff4f52;
+$statutGreen: #3dc47e;
+
+
+
+/* Разрешения */
+$mobile:				768px;
+$tablet:				769px;
+$desktop:				1024px;
+$widescreen:			1220px;
+$fullhd:				1408px;
+
+/* Мои переменные */
+%display {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+%display-around {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+%display-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+%font-400 {
+	font-family: Roboto;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 400;
+}
+
+%font-500 {
+	font-family: Roboto;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 500;
+}
+%Gosha-sans {
+	font-size: 20px;
+	line-height: 25px;
+}

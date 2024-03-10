@@ -1,0 +1,108 @@
+<header class="header">
+  <div class="header-top">
+    <div class="container">
+      <div class="wrapper">
+        <div class="header-top__link">
+          <div class="header-top__link-img">
+          {% include "@assets/svg/places.svg" %}
+            
+            <a href="#" class="img-link">Москва</a>
+          </div>
+          <div class="header-top__link-img">
+          {% include "@assets/svg/box.svg" %}
+            <a href="#" class="img-link">Доставка и оплата</a>
+          </div>
+          <div class="header-top__link-img">
+          {% include "@assets/svg/clock.svg" %}
+            <a href="#" class="img-link">Адрес и часы работы</a>
+          </div>
+        </div>
+        <div class="header-top__connection">
+          <div class="header-top__link-img">
+          {% include "@assets/svg/email.svg" %}
+            <a href="mailto:+7(967)321-22-33" class="img-link"
+              >market@estatut.ru</a
+            >
+          </div>
+          <div class="header-top__link-img">
+          {% include "@assets/svg/tel.svg" %}
+            <a href="tel:+8 (968) 660-65-50" class="img-link"
+              >8 (968) 660-65-50</a
+            >
+            {% include "@assets/svg/i.svg" %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="header-main">
+    <div class="container">
+      <div class="header-main__inner">
+        <div class="header-main__inner-item">
+        {% include "@assets/svg/logo.svg" %}
+          <form action="" method="get" class="search">
+            <input
+              name="search"
+              placeholder="Автор, название, ISBN"
+              type="search"
+              class="search-text"
+            />
+            <button type="submit" class="search-btn">
+           {% include "@assets/svg/lupa.svg" %}
+              <p class="search-btn__text">Искать</p>
+            </button>
+          </form>
+        </div>
+        <div class="header-main__inner-block">
+          <div class="header-main__link">
+            <div class="header-main__link-img">
+            {% include "@assets/svg/save.svg" %}
+              <a href="#" class="img-link-main">Отложено</a>
+            </div>
+            <div class="header-main__link-img">
+             {% include "@assets/svg/smail.svg" %}
+              <a href="#" class="img-link-main">Войти</a>
+            </div>
+            <div class="header-main__link-img degree">
+              {% include "@assets/svg/basket.svg" %}
+              <a href="#" class="img-link-main" style="position: relative"
+                >Корзина</a
+              >
+              <div class="degree_back">
+                <span>10</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header-bottom">
+    <div class="container">
+      <div class="header-bottom__inner">
+        <div class="header-bottom__link-img">
+        {% include "@assets/svg/line-blue.svg" %}
+          <a href="#" class="blue-link">Каталог</a>
+        </div>
+        <div class="header-bottom__link-img">
+          <a href="#" class="blue-link">Авторы</a>
+        </div>
+        <div class="header-bottom__link-img">
+          <a href="#" class="blue-link">Новинки</a>
+        </div>
+        <div class="header-bottom__link-img">
+        {% include "@assets/svg/skidka.svg" %}
+          <a href="#" class="red-link">Скидки</a>
+        </div>
+        <div class="header-bottom__link-img">
+          <a href="#" class="blue-link">Партнёрам</a>
+        </div>
+        <div class="header-bottom__link-img">
+          <a href="#" class="blue-link">Мы</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
