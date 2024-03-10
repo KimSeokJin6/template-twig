@@ -4,8 +4,9 @@
 
   	{% include "@blocks/sel-about/sel-about.twig" %}
     {% include "@blocks/book-slider/book-slider.twig" with {'title': 'Новые поступления'} %}
-     {% include "@blocks/dis-search/dis-search.twig"  %}
-   
+    {% include "@blocks/dis-search/dis-search.twig"  %}
+    {% include "@blocks/book-slider/book-slider.twig" with {'title': 'Готовятся к выходу'} %}
+    {% include "@blocks/feature-card/feature-card.twig" %}
 	{#
 		Пример подключения файла
 		{% include '@blocks/component/component.twig' %}
