@@ -1,0 +1,40 @@
+.footer {
+  &__top {
+    margin-top: 30px;
+    background: rgba(40, 47, 54, 0.04);
+    @extend %display;
+  }
+  &-main {
+    &__link {
+      &-img {
+        &-inner {
+          // width: 40px;
+          // height: 40px;
+        }
+      }
+    }
+  }
+  &-search-btn {
+    height: 100%;
+    width: 50px;
+    position: absolute;
+    background: $statutOrange;
+    right: 0;
+    top: 0;
+    border-radius: 0 5px 5px 0;
+  }
+  &-search {
+    width: 443px;
+    border: 1px solid #dfe0e1;
+    padding: 10px 15px;
+    font-size: 14px;
+    height: 40px;
+    border-radius: 0 5px 5px 0;
+    position: relative;
+    &-text {
+      @extend %font-400;
+      width: 100%;
+      line-height: 20px;
+    }
+  }
+}

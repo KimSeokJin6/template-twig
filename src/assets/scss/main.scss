@@ -16,6 +16,9 @@
 @import "@b/g-radio/g-radio.scss";
 @import "@b/header/header.scss";
 @import "@b/sel-about/sel-about.scss";
+@import "@b/book-slider/book-slider.scss";
+@import "@b/feature-card/feature-card.scss";
+@import "@b/footer/footer.scss";
 
 @mixin font($fname, $fstyle, $fweight, $furl) {
 	@font-face {

@@ -1,0 +1,45 @@
+.feature {
+	&-inner {
+		@extend %display;
+		margin-top: 30px;
+		&__item {
+			width: 263px;
+			height: 150px;
+			border-radius: 5px;
+			background: $statutWhite;
+			@extend %display-around;
+			&-in {
+				margin-right: 16px;
+			}
+			&-img {
+				width: 99px;
+				height: 64px;
+				margin-left: -10px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			&-inner-img {
+				margin-left: -5px;
+			}
+			&-title {
+				width: 155px;
+				height: 25px;
+				color: rgb(28, 41, 77);
+				font-family: Roboto;
+				font-size: 16px;
+				font-weight: 700;
+				line-height: 25px;
+				letter-spacing: -0.3px;
+			}
+			&-text {
+				color: rgb(114, 114, 114);
+				font-size: 12px;
+				font-weight: 400;
+				max-width: 153px;
+				font-family: Roboto;
+				line-height: 19px;
+			}
+		}
+	}
+}

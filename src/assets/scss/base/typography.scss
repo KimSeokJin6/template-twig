@@ -1,32 +1,27 @@
 /*  Общая типографика для всех страниц. здесь описываются общие свойства для текстовых блоков  */
 
-body
-{
+body {
 	font-family: $accent-font;
 	font-size: 16px;
 	line-height: 1.5;
-	min-height:100vh
+	min-height: 100vh;
 }
 
-ul
-{
+ul {
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
-	li
-	{
+	li {
 		margin: 0;
 		padding: 0;
 	}
 }
 
-address
-{
+address {
 	font-style: normal;
 }
 
-h1
-{
+h1 {
 	font-size: 42px;
 	font-weight: 400;
 	margin-top: 0;
@@ -34,8 +29,7 @@ h1
 	line-height: 24px;
 }
 
-h2
-{
+h2 {
 	font-size: 22px;
 	font-weight: 400;
 	margin-top: 0;
@@ -43,29 +37,21 @@ h2
 	line-height: 24px;
 }
 
-h3
-{
+h3 {
 	font-size: 16px;
 	font-weight: 400;
 	margin-bottom: 10px;
 }
 
-h4
-{
+h4 {
 	font-size: 15px;
-	letter-spacing: 2.4px;;
+	letter-spacing: 2.4px;
 	line-height: 24px;
-	margin:0px 0 8px 0;
+	margin: 0px 0 8px 0;
 }
 
-p
-{
-	margin-top: 10px;
-	color: $secondary-color;
-}
 
-b
-{
+b {
 	font-weight: 700;
 }
 
@@ -73,8 +59,7 @@ a,
 a:hover,
 a:active,
 a:visited,
-a:focus
-{
+a:focus {
 	outline: 0;
 	text-decoration: none;
 }

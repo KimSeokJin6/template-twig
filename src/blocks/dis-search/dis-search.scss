@@ -1,0 +1,44 @@
+.discount {
+	&-inner {
+		@extend %display-center;
+		height: 105px;
+		margin-top: 30px;
+		border-radius: 5px;
+		background: $statutBlue;
+		gap: 14px;
+	}
+	&-text {
+		max-width: 471px;
+		height: 20px;
+		position: relative;
+		color: $statutWhite;
+		font-family: Roboto;
+		font-size: 18px;
+		font-weight: 500;
+		z-index: 2;
+		line-height: 20px;
+		&-white {
+			color: $statutWhite;
+		}
+	}
+	&-search {
+		max-width: 418px;
+		height: 40px;
+		border-radius: 5px;
+		background: $statutWhite;
+		&-wave {
+			position: absolute;
+			width: 61.5px;
+			left: 60px;
+			z-index: -1;
+			bottom: -2.5px;
+		}
+	}
+	&-btn-link {
+		padding: 10px 25px;
+		border: 1px solid $statutWhite;
+		border-radius: 5px;
+		color: $statutWhite;
+		@extend %font-500;
+	}
+}

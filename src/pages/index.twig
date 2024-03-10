@@ -3,6 +3,8 @@
 {% block page %}
 
   	{% include "@blocks/sel-about/sel-about.twig" %}
+    {% include "@blocks/book-slider/book-slider.twig" with {'title': 'Новые поступления'} %}
+   
 	{#
 		Пример подключения файла
 		{% include '@blocks/component/component.twig' %}
