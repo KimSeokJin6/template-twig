@@ -2,17 +2,18 @@
 
 {% block page %}
 
-  	{# {% include "@blocks/sel-about/sel-about.twig" %} #}
-    {# {% include "@blocks/book-slider/book-slider.twig" with {'title': 'Новые поступления'} %}
-    {% include "@blocks/dis-search/dis-search.twig"  %}
-    {% include "@blocks/book-slider/book-slider.twig" with {'title': 'Готовятся к выходу'} %}
-    {% include "@blocks/feature-card/feature-card.twig" %}
-    {% include "@blocks/new-book-slider/new-book-slider.twig" %} #}
-   
+	{% include "@blocks/sel-about/sel-about.twig" %}
+	{% include "@blocks/book-slider/book-slider.twig" with {'title': 'Новые поступления'} %}
+	{% include "@blocks/dis-search/dis-search.twig"  %}
+	{% include "@blocks/book-slider/book-slider.twig" with {'title': 'Готовятся к выходу'} %}
+	{% include "@blocks/feature-card/feature-card.twig" %}
+	{% include "@blocks/preparing-book/preparing-book.twig" %}
+
+
 	{#
-		Пример подключения файла
-		{% include '@blocks/component/component.twig' %}
-		Пример подключения svg
-		{% include '@assets/svg/component.svg' %}
-	#}
+						Пример подключения файла
+						{% include '@blocks/component/component.twig' %}
+						Пример подключения svg
+						{% include '@assets/svg/component.svg' %}
+					#}
 {% endblock %}

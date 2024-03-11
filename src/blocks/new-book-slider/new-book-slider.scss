@@ -1,0 +1,32 @@
+.cards-width {
+	position: relative;
+	height: 494px;
+	flex-direction: column;
+	background-color: #fff;
+	align-items: start;
+	padding: 25px 10px 20px 10px;
+}
+@media (max-width: 1500px) {
+	.cards-width {
+		width: 100%;
+		height: 403px;
+	}
+	.products-cards-mobile {
+		background-color: white;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-bottom: 20px;
+	}
+	.cards-h {
+		height: 130px;
+		padding: 8px 0 20px 0px;
+	}
+	.products {
+		margin-top: 10px;
+		padding: 18px 25px;
+		border-radius: 5px;
+		background-color: #fff;
+		border-bottom: 1px solid #e1e1e1;
+	}
+}

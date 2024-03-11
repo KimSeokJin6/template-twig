@@ -15,10 +15,12 @@
 @import "@b/g-button/g-button.scss";
 @import "@b/g-radio/g-radio.scss";
 @import "@b/header/header.scss";
-@import "@b/sel-about/sel-about.scss";
+
 @import "@b/book-slider/book-slider.scss";
+@import "@b/new-book-slider/new-book-slider.scss";
 @import "@b/feature-card/feature-card.scss";
 @import "@b/footer/footer.scss";
+@import "@b/dis-search/dis-search.scss";@import "@b/sel-about/sel-about.scss";
 
 @mixin font($fname, $fstyle, $fweight, $furl) {
 	@font-face {
@@ -61,7 +63,6 @@ $iconFontFamily: "Icons";
 .container {
 	max-width: 1140px;
 	margin: 0 auto;
-	min-width: 1140px;
 }
 .wrapper {
 	@extend %display;

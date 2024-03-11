@@ -1,29 +1,27 @@
 {# layout.twig #}
 <!DOCTYPE html>
 <html>
-<head>
-    <!--[if IE 6]>		<html id="section-reco_main" class="nojs ie6 ieb7 ieb8 ieb9 ieb10 split1 nosplit5 platform-PC platform-notouch"><![endif]-->
-	<!--[if IE 7]>		<html id="section-reco_main" class="nojs iea6 ie7 ieb8 ieb9 ieb10 split1 nosplit5 platform-PC platform-notouch"><![endif]-->
-	<!--[if IE 8]>		<html id="section-reco_main" class="nojs iea6 iea7 ie8 ieb9 ieb10 split1 nosplit5 platform-PC platform-notouch"><![endif]-->
-	<!--[if IE 9]>		<html id="section-reco_main" class="nojs iea6 iea7 iea8 ie9 ieb10 split1 nosplit5 platform-PC platform-notouch"><![endif]-->
-	<meta name="viewport" content="width=device-width">
-	<meta name="MobileOptimized" content="320"/>
-	<meta name="HandheldFriendly" content="true"/>
-	<meta charset="utf-8">
-  
-	<meta name="viewport min-width=320px" content="min-width=320, initial-scale=1.0" />
- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<head>
+		<!--[if IE 6]>		<html id="section-reco_main" class="nojs ie6 ieb7 ieb8 ieb9 ieb10 split1 nosplit5 platform-PC platform-notouch"><![endif]-->
+		<!--[if IE 7]>		<html id="section-reco_main" class="nojs iea6 ie7 ieb8 ieb9 ieb10 split1 nosplit5 platform-PC platform-notouch"><![endif]-->
+		<!--[if IE 8]>		<html id="section-reco_main" class="nojs iea6 iea7 ie8 ieb9 ieb10 split1 nosplit5 platform-PC platform-notouch"><![endif]-->
+		<!--[if IE 9]>		<html id="section-reco_main" class="nojs iea6 iea7 iea8 ie9 ieb10 split1 nosplit5 platform-PC platform-notouch"><![endif]-->
+		<meta name="viewport" content="width=device-width"> <meta name="MobileOptimized" content="320"/>
+		<meta name="HandheldFriendly" content="true"/>
+		<meta charset="utf-8">
+
+		<meta name="viewport min-width=320px" content="min-width=320, initial-scale=1.0"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
 
-	<title>Statut</title>
-</head>
-<body>
-	{% include '@blocks/header/header.twig' %}
-	<div class="site-content">
-		{% block page %}{% endblock %}
-	</div>
-	{# {% include '@blocks/footer/footer.twig' %} #}
-</body>
-</html>
+		<title>Statut</title>
+	</head>
+	<body>
+		{% include '@blocks/header/header.twig' %}
+		<div class="site-content"> {% block page %}{% endblock %}
+			</div>
+			{% include '@blocks/footer/footer.twig' %}
+		</body>
+	</html>
